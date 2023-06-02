@@ -2,6 +2,7 @@ const express = require('express');
 const http = require('http');
 const path = require('path');
 const nodemailer = require('nodemailer');
+require('dotenv').config()
 
 const app = express();
 const server = http.Server(app);
@@ -39,8 +40,8 @@ app.post("/send_email", function (req, res) {
         secure: true,
         service: 'gmail',
         auth: {
-            user: "harshhimanshudixit@gmail.com",
-            pass: "cwujzimqjehhjyac",
+            user: process.env.USER,
+            pass: process.env.PASS,
         }
     });
 
