@@ -630,6 +630,39 @@ section {
   transform: scale(1);
 }
 
+.certify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certify .icon {
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.certify .icon i {
+  font-size: 1.5rem;
+  color: var(--color-white);
+  margin: 0 1rem;
+}
+
+.certify .icon:hover {
+  background-color: var(--color-white);
+}
+
+.certify .icon:hover i {
+  color: var(--color-primary);
+}
+
 .blogs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -678,6 +711,7 @@ section {
   margin-bottom: 0.7rem;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
+  text-align: center;
 }
 
 .blogs .blog .blog-text h4:hover {
@@ -688,6 +722,7 @@ section {
   color: var(--color-grey-2);
   line-height: 2rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 .contact-content-con {
