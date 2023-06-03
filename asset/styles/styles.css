@@ -418,10 +418,41 @@ section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 4rem;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1300px) {
+  .cp-contact-icon-inner {
+    flex-wrap: wrap !important;
+    margin-bottom: 2rem !important;
+  }
+  .ico {
+    width: 33% !important;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cp-contact-icon-inner {
+    flex-direction: column !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .ico {
+    width: auto !important;
+    margin-bottom: 2rem;
+  }
+
+  .last {
+    margin-bottom: -2rem;
+  }
 }
 
 .ico {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cp-contact-icon-inner a {
@@ -434,7 +465,7 @@ section {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin: 0 5rem;
+  /* margin: 0 5rem; */
   transition: all 0.4s ease-in-out;
 }
 
