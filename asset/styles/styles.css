@@ -356,7 +356,11 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 75%;
+  width: 80%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .next {
+  width: 90%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
