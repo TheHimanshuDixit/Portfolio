@@ -8,7 +8,7 @@ My Portfolio website. it will tell you all about my development journey.
 
 # Screenshot
 
-![Screenshot 2023-07-13 013701](https://github.com/TheHimanshuDixit/wearncode/assets/107857348/259074c3-02c6-4e16-bcc0-cc34193cb88c)
+![image](https://github.com/TheHimanshuDixit/Portfolio/assets/107857348/94a41d89-4095-4f3a-b621-e02de83f8297)
 
 
 ## Run Locally
