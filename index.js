@@ -1,11 +1,11 @@
 const express = require('express');
-const http = require('http');
+// const http = require('http');
 const path = require('path');
 const nodemailer = require('nodemailer');
 require('dotenv').config()
 
 const app = express();
-const server = http.Server(app);
+// const server = http.Server(app);
 const port = 3000;
 
 app.set("port", port);
