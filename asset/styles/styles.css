@@ -344,7 +344,7 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+  width: 90%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
@@ -352,11 +352,19 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
+  width: 90%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .ts {
+  width: 80%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 80%;
+  width: 90%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .reactnative {
+  width: 85%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .next {
@@ -364,11 +372,11 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
+  width: 85%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .exp {
-  width: 40%;
+  width: 90%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
@@ -380,15 +388,19 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .dsa {
-  width: 90%;
+  width: 95%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
   width: 85%;
 }
 
+.about-stats .progress-bars .progress-bar .progress-con .progress .mongoDB {
+  width: 85%;
+}
+
 .about-stats .progress-bars .progress-bar .progress-con .progress .tail {
-  width: 80%;
+  width: 90%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .boots {
